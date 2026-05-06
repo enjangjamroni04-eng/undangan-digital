@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.cover {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Menempatkan konten sedikit ke bawah agar wajah tidak tertutup */
+    padding-bottom: 80px;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), 
+                url('../assets/img/background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.nama-mempelai {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+.tamu-undangan p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.tamu-undangan h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btn-buka {
+    padding: 12px 40px;
+    background: linear-gradient(to right, #0088cc, #00c6ff); /* Gradasi biru seperti contoh */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.isi-undangan {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #fdfaf6;
+    min-height: 100vh;
+}
+
+.mempelai h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    color: #d4a373;
+}
+
+.simbol {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #d4a373;
+}
+
+.lokasi, .ucapan {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.btn-maps, .btn-kirim {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #d4a373;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+}

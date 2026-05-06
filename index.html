@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Digital - Afiah Celluler</title>
+    <!-- Menghubungkan ke CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Elegan -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<body>
+    <!-- Bagian Cover Utama -->
+<section class="cover">
+    <div class="content">
+        <!-- Logo Usaha (Opsional) -->
+        <div class="logo-usaha">
+            <img src="assets/img/logo.png" alt="Logo" style="width: 80px; margin-bottom: 20px;">
+        </div>
+
+        <h1 class="nama-mempelai">Gifi & Ripa</h1>
+        
+        <div class="tamu-undangan">
+            <p>Kepada Yth:</p>
+            <h2 id="nama-tamu">Nama Tamu Undangan</h2>
+        </div>
+
+        <button class="btn-buka">
+            <span>📩</span> Buka Undangan
+        </button>
+    </div>
+</section>
+
+    <!-- Bagian Isi (Berikan ID agar mudah diatur) -->
+    <main id="main-content" style="display: none;">
+        <section class="isi-undangan">
+            <div class="mempelai">
+                <h2>Kedua Mempelai</h2>
+                <div class="profil">
+                    <h3>Nama Mempelai Pria</h3>
+                    <p>Putra dari Bp. Nama Ayah & Ibu Nama Ibu</p>
+                    <div class="simbol">&</div>
+                    <h3>Nama Mempelai Wanita</h3>
+                    <p>Putri dari Bp. Nama Ayah & Ibu Nama Ibu</p>
+                </div>
+            </div>
+            <!-- Bagian Lokasi -->
+<section class="lokasi">
+    <h2>Lokasi Acara</h2>
+    <p>Gedung Pernikahan Indah, Majalengka</p>
+    <!-- Ganti link di bawah dengan link share dari Google Maps Anda -->
+    <a href="https://maps.google.com" target="_blank" class="btn-maps">Lihat Lokasi di Maps</a>
+</section>
+
+<!-- Bagian Ucapan & RSVP -->
+<section class="ucapan">
+    <h2>Konfirmasi Kehadiran & Ucapan</h2>
+    <form id="rsvp-form">
+        <input type="text" id="nama" placeholder="Nama Anda" required>
+        <select id="status" required style="padding: 10px; border-radius: 5px; border: 1px solid #ddd;">
+            <option value="">Konfirmasi Kehadiran</option>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+        </select>
+        <textarea id="pesan" placeholder="Tulis ucapan doa Anda..." required></textarea>
+        <button type="submit" class="btn-kirim">Kirim ke WhatsApp</button>
+    </form>
+</section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</body>
+</html>
